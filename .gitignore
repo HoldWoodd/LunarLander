@@ -1,0 +1,13 @@
+# Public portfolio allowlist. All private research files remain local and ignored.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/NOTICE.md
+!/media/
+/media/*
+!/media/specialists_four_panel.gif
+!/media/specialists_four_panel.mp4
+!/media/specialist_landing_locations.png
+!/media/landing_outcomes_slideshow.gif
+!/media/landing_outcomes_grid_*.png
