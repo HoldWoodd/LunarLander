@@ -25,6 +25,16 @@ The project spans environment development, spacecraft modeling, controller train
 
 ## Selected experimental evidence
 
+### Learning and evaluation overview
+
+![Coarse normalized training-return histories for two specialist runs](media/learning_progress_overview.png)
+
+![Coarse normalized evaluation-success histories for two specialist runs](media/evaluation_progress_overview.png)
+
+*These are qualitative summaries derived from two selected historical specialist runs, not synthetic examples. Each full recorded history is divided into ten chronological groups, with one mean plotted per group. Every curve is then independently min–max scaled; the horizontal axis shows relative position within that run's recorded history. Example labels are consistent across both figures.*
+
+**The axes do not disclose actual training steps, rewards, or success percentages.** Independent scaling means that curve heights cannot be compared between runs; a high index does not mean 100% success. These are not multi-seed averages, uncertainty estimates, or comparisons of controller architectures or action distributions. Detailed numerical histories and experimental settings are intentionally withheld. This reduces disclosure detail, but the figures still reveal broad learning trends.
+
 ### Landing outcome gallery
 
 ![Six rotating four-panel landing outcome maps](media/landing_outcomes_slideshow.gif)
