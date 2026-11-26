@@ -25,15 +25,27 @@ The project spans environment development, spacecraft modeling, controller train
 
 ## Selected experimental evidence
 
-### Learning and evaluation overview
+### Recorded evaluation curves
 
-![Coarse normalized training-return histories for two specialist runs](media/learning_progress_overview.png)
+#### Clipped Normal: six-configuration unified policy
 
-![Coarse normalized evaluation-success histories for two specialist runs](media/evaluation_progress_overview.png)
+![Original per-configuration reward and success curves for unified Clipped Normal](media/unified_clipped_normal_evaluation.png)
 
-*These are qualitative summaries derived from two selected historical specialist runs, not synthetic examples. Each full recorded history is divided into ten chronological groups, with one mean plotted per group. Every curve is then independently min–max scaled; the horizontal axis shows relative position within that run's recorded history. Example labels are consistent across both figures.*
+*Recorded historical run, seed 1: KSP, KSP_2, 003, Change, Change_2, and Lanyue. Original plot, axes, and legends are retained.*
 
-**The axes do not disclose actual training steps, rewards, or success percentages.** Independent scaling means that curve heights cannot be compared between runs; a high index does not mean 100% success. These are not multi-seed averages, uncertainty estimates, or comparisons of controller architectures or action distributions. Detailed numerical histories and experimental settings are intentionally withheld. This reduces disclosure detail, but the figures still reveal broad learning trends.
+#### Logit Normal: seven-configuration unified policy
+
+![Original per-configuration reward and success curves for unified Logit Normal](media/unified_logit_normal_evaluation.png)
+
+*Recorded historical run, seed 1: the pool additionally includes 004. Original plot, axes, and legends are retained.*
+
+#### Specialist evaluation across perturbation modes
+
+![Original KSP_2 specialist evaluation success curves across perturbation modes](media/specialist_ksp2_evaluation_modes.png)
+
+*KSP_2 specialist, seed 1. The plot shows nominal, payload, engine-glitch, and combined evaluation histories, as labeled in the original figure.*
+
+These figures are **original exported evaluation plots**, not independently normalized or reduced to a few representative points. They describe selected single-seed histories, not multi-seed averages or uncertainty estimates. The unified runs use different configuration pools and experimental settings, so these are **not a controlled head-to-head comparison of distributions**. Small and large evaluation batches also have different sample counts. The images disclose plotted results; underlying CSVs, training configurations, source code, and checkpoints are not distributed.
 
 ### Landing outcome gallery
 
@@ -61,6 +73,6 @@ This is a research simulator, **not flight software**. No real-spacecraft valida
 
 ## Availability and attribution
 
-This public page intentionally contains only a project overview and selected visual demonstrations. Source code, checkpoints, datasets, detailed learning curves, and experimental configurations are withheld pending publication planning. Their absence is intentional; this is not a runnable software release.
+This public page intentionally contains only a project overview, selected visual demonstrations, and exported evaluation figures. Source code, checkpoints, datasets, underlying numerical records, and experimental configurations are withheld pending publication planning. Their absence is intentional; this is not a runnable software release.
 
 See [NOTICE.md](NOTICE.md) for acknowledgments and usage scope.
