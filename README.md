@@ -2,6 +2,8 @@
 
 ### Learning to Land Spacecraft with Diverse Configurations
 
+**[Visit the project website](https://holdwoodd.github.io/LunarLander/)** — demonstrations, spacecraft, simulation environments, and selected results.
+
 LunarLander is an ongoing research project on reinforcement-learning-based control of planetary landers. I developed a modular 3D lunar-landing simulator, designed spacecraft with different physical properties and engine layouts, and trained controllers to perform autonomous landings.
 
 This repository is a **visual research portfolio** for academic introductions and graduate applications. The research implementation, model weights, training configurations, and detailed experimental records are not included while the work is being prepared for publication.
