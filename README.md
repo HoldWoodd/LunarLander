@@ -55,4 +55,12 @@ Research policy implementations, checkpoints, training configurations, raw evalu
 
 ## Attribution and usage
 
+Spacecraft design inspirations:
+
+- **KSP family:** Kerbal Space Program.
+- **Lanyue and Chang'e families:** China's lunar-exploration programs and related lander concepts.
+- **003 and 004:** lander designs described in research papers.
+
+These are simplified, project-created simulation models, not official reproductions.
+
 Terrain is processed from NASA / GSFC / LRO / LOLA elevation data. Spacecraft geometry is a simplified project-created representation; no proprietary game mesh or texture is included. See [NOTICE.md](NOTICE.md) for usage scope and acknowledgments.
