@@ -59,7 +59,7 @@ Spacecraft design inspirations:
 
 - **KSP family:** Kerbal Space Program.
 - **Lanyue and Chang'e families:** China's lunar-exploration programs and related lander concepts.
-- **003 and 004:** lander designs described in research papers.
+- **003 and 004:** inspired by the lander design in Scorsoglio, Gaudet, Ghilardi, and Furfaro (2025), [*Meta-reinforcement learning guidance, navigation, and control for autonomous lunar landing with safe site selection*](https://doi.org/10.1007/s00521-025-11274-7), *Neural Computing and Applications*, 37, 17311–17340.
 
 These are simplified, project-created simulation models, not official reproductions.
 
