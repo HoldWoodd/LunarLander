@@ -14,6 +14,20 @@ This repository is a **visual research portfolio** for academic introductions an
 
 [Watch the full-resolution video](media/specialists_four_panel.mp4) · [Selected experimental evidence](#selected-experimental-evidence)
 
+## Simulation environment and spacecraft
+
+![Nine modular spacecraft in the lunar simulation environment](media/nine_landers_overview.png)
+
+*Nine spacecraft configurations with distinct geometry, landing gear, and propulsion layouts, shown together in the same simulation environment.*
+
+![LOLA source regions, extracted patches, and simulation terrains](media/lola_to_simulation.png)
+
+*Two terrain-processing examples based on NASA LRO/LOLA elevation data. The source patches are resampled, rescaled, and modified for simulation; these are not full-scale reconstructions of lunar sites.*
+
+![Manually piloted spacecraft departing a crater, with a cinematic camera](media/manual_flight_showcase.gif)
+
+*A recorded manual flight replayed through engine forces, with an independently designed camera. This clip demonstrates the 3D environment and flight dynamics, not an autonomous policy or an evaluation result. The opening two-second orbit holds the initial scene before replay begins; the final camera pullback reveals the surrounding terrain.*
+
 ## Project overview
 
 - **Simulation:** a PyBullet-based 3D lunar-landing environment with processed NASA LRO/LOLA-derived terrain.
